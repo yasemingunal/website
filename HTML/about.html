@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Yasemin Gunal</title>
+  </head>
+  <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+      <nav id="navigation_bar">
+        <ul class="nav_links">
+           <li class="active"> <a href="about.html">Home</a></li>
+           <li><a href="projects.html">Portfolio</a></li>
+        </div>
+    </nav>
+    </header>
+    <main class="container" id = "main">
+        <div class = "intro">
+          <div class="mycard">
+              <img id="headshot" src = "/images/headshot.png" alt="Headshot"/>
+              <!-- <h3 class="positions">UMich Student | Data Analyst</h3> -->
+            </div>
+          
+          <div class="aboutme_card">
+            <p>It's nice to see you! I'm Yasemin. I am a third-year student
+                at the University of Michigan School of Information <a href = "https://www.si.umich.edu/">(UMSI)</a> where I study 
+            data analytics and HCI. 
+            <br><br>
+            I am an instructional aide for Intro Python Programming (SI 106), 
+            a research assistant to Dr. Sun Young Park, and an analyst for the 
+            UM Athletics Sports Performance and Nutrition Team! <br><br>
+              <button onclick="goResume();" class="intro_button">Resume</button>
+              <button onclick="goLinkedin();" class="intro_button">LinkedIn</button>
+            </p>
+        </div>
+    </div>
+
+        </div>
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mwkzagpl" method="post">
+            <fieldset>
+              <legend id="contact-legend"><b>Get in Touch</b></legend>
+              <label id="nameLabel" for="contact-name">Name: <br></label>
+              <input type="text" name="name" id="contact-name"><br/>
+            
+              <label id="emailLabel" for="contact-email">Email: <br>
+              <input type="text" name="email" id="contact-email"><br/></label>
+            
+              <label id="messageLabel" for="contact-message">Message: <br></label>
+              <input type="text" name="message" id="contact-message">
+            
+            </fieldset>
+            <br>
+            <input id="submit_button" class="intro_button" type="submit" value="Send Message">
+          </form>
+        </div>
+  </main>
+    <script src="code.js"></script>
+    <footer>
+      <p> Yasemin Gunal &copy; 2022</p>
+     <embed id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.904849361863!2d-83.74241488498278!3d42.280554448112134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae40746ad639%3A0x9777deab36d450cd!2sSchool%20of%20Information%20at%20the%20University%20of%20Michigan!5e0!3m2!1sen!2sus!4v1670019485068!5m2!1sen!2sus">    
+    </footer>
+  </body>
+</html>
